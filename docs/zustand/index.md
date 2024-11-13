@@ -35,7 +35,7 @@ export const useBearStore = create<TBearStoreState>()((set) => ({
 
 ```
 
-在组件中使用状态，这里创建了一个BearBox组建：
+在组件中使用状态，这里创建了一个BearBox组件：
 
 ```typescript
 import { useBearStore } from "../store/bearStore";
@@ -133,7 +133,7 @@ const increaseSmallCats = useCatStore((state) => state.increaseSmallCats);
 const { cat:bigCats } = useCatStore()
 ```
 
-如果只是这样使用的话会出现一个问题，假设在一个CatBox2组建中，只使用到bigCats 一个数据，然后通过解构语法从存储库中获取数据时，如果储存库中的其他state发生变化时，当前组建也会重新渲染，即使组建中没有用到其他state 。
+如果只是这样使用的话会出现一个问题，假设在一个CatBox2组件中，只使用到bigCats 一个数据，然后通过解构语法从存储库中获取数据时，如果储存库中的其他state发生变化时，当前组件也会重新渲染，即使组件中没有用到其他state 。
 
 为了解决这个问题，需要用到`自动生成selector`
 
@@ -222,6 +222,8 @@ export const CatController = () => {
 };
 
 ```
+
+
 
 ## 将存储库中的数据保存到本地存储中
 
