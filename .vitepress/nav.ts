@@ -68,6 +68,10 @@ export default [
         text: "docker",
         link: "/docker/index.md",
       },
+      {
+        text: "git",
+        link: "/git/index.md",
+      },
     ],
   },
 ] as DefaultTheme.NavItem[];

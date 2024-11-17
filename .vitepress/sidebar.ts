@@ -16,6 +16,14 @@ export default {
   ],
   "/react/": [
     {
+      text: "api",
+      items: [
+        { text: "forwardRef", link: "/react/api/forwardRef" },
+        { text: "lazy", link: "/react/api/lazy" },
+        { text: "memo", link: "/react/api/memo" },
+      ],
+    },
+    {
       text: "Hooks",
       items: [
         {
@@ -27,6 +35,59 @@ export default {
               text: "useSyncExternalStore",
               link: "/react/hooks/数据状态/useSyncExternalStore",
             },
+            {
+              text: "useTransition",
+              link: "/react/hooks/数据状态/useTransition",
+            },
+            {
+              text: "useDeferredValue",
+              link: "/react/hooks/数据状态/useDeferredValue",
+            },
+          ],
+        },
+        {
+          text: "副作用",
+          items: [
+            { text: "useEffect", link: "/react/hooks/副作用/useEffect" },
+            {
+              text: "useLayoutEffect",
+              link: "/react/hooks/副作用/useLayoutEffect",
+            },
+            {
+              text: "useInsertionEffect",
+              link: "/react/hooks/副作用/useInsertionEffect",
+            },
+          ],
+        },
+        {
+          text: "状态传递",
+          items: [
+            { text: "useRef", link: "/react/hooks/状态传递/useRef" },
+            {
+              text: "useImperativeHandle",
+              link: "/react/hooks/状态传递/useImperativeHandle",
+            },
+            {
+              text: "useContext",
+              link: "/react/hooks/状态传递/useContext",
+            },
+          ],
+        },
+        {
+          text: "性能优化",
+          items: [
+            { text: "useMemo", link: "/react/hooks/性能优化/useMemo" },
+            { text: "useCallback", link: "/react/hooks/性能优化/useCallback" },
+          ],
+        },
+        {
+          text: "其他hook",
+          items: [
+            {
+              text: "useDebugValue",
+              link: "/react/hooks/其他hook/useDebugValue",
+            },
+            { text: "useId", link: "/react/hooks/其他hook/useId" },
           ],
         },
       ],
