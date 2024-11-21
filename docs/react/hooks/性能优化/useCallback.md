@@ -75,6 +75,6 @@ export default () => {
 
 在控制台输出可以看到与使用`useMemo`记忆化函数是一样的效果
 
-![useMemo-example-2](/Users/eddie/Documents/code/doc-hub-sky/docs/react/hooks/images/useMemo-example-2.png)
+![useMemo-example-2](/Users/eddie/Documents/code/docs/docs/react/hooks/images/useMemo-example-2.png)
 
 所以我认为`useCallback` 是`useMemo`的进阶版本。

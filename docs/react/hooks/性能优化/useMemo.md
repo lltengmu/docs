@@ -75,7 +75,7 @@ export default () => {
 
 点击父组件的add count 按钮
 
-![useMemo-example-1](/Users/eddie/Documents/code/doc-hub-sky/docs/react/hooks/images/useMemo-example-1.png)
+![useMemo-example-1](/Users/eddie/Documents/code/docs/docs/react/hooks/images/useMemo-example-1.png)
 
 发现子组件还是发生了重新渲染。 使用`useMemo`hook 记忆函数使子组件跳过重新渲染。
 
