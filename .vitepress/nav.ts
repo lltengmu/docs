@@ -26,6 +26,10 @@ export default [
         link: "/linux/index.md",
       },
       {
+        text: "Mysql",
+        link: "/mysql/index.md",
+      },
+      {
         text: "Nginx",
         link: "/nginx/index.md",
       },

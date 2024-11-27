@@ -10,6 +10,15 @@ export default {
       ],
     },
   ],
+  "/mysql/": [
+    {
+      text: "Mysql",
+      items: [
+        { text: "认识Mysql", link: "/mysql/index" },
+        { text: "基础语句", link: "/mysql/基础语句大全" },
+      ],
+    },
+  ],
   "/typescript/": [
     {
       text: "typescript",
