@@ -16,6 +16,8 @@ export default {
       items: [
         { text: "认识Mysql", link: "/mysql/index" },
         { text: "基础语句", link: "/mysql/基础语句大全" },
+        { text: "多表查询", link: "/mysql/多表查询" },
+        { text: "事务处理", link: "/mysql/事务处理" },
       ],
     },
   ],
