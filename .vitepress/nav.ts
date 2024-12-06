@@ -63,6 +63,10 @@ export default [
         text: "数据结构与算法",
         link: "/Data-Structures-And-Algorithms/01.数据结构与算法简介.md",
       },
+      {
+        text: "设计模式",
+        link: "/Design-Patterns/01.设计模式简介.md",
+      },
     ],
   },
   {

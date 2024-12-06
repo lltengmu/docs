@@ -18,6 +18,7 @@ export default {
         { text: "基础语句", link: "/mysql/基础语句大全" },
         { text: "多表查询", link: "/mysql/多表查询" },
         { text: "事务处理", link: "/mysql/事务处理" },
+        { text: "锁机制", link: "/mysql/锁机制" },
       ],
     },
   ],
@@ -135,9 +136,26 @@ export default {
   ],
   "/Design-Patterns/": [
     {
-      text: "设计模式",
+      text: "设计模式简介",
+      link: "/Design-Patterns/01.设计模式简介",
       items: [
-        { text: "设计模式简介", link: "/Design-Patterns/01.设计模式简介" },
+        {
+          text: "设计模式",
+          items: [
+            {
+              text: "命令模式",
+              link: "/Design-Patterns/design-patterns/命令模式",
+            },
+            {
+              text: "工厂模式",
+              link: "/Design-Patterns/design-patterns/工厂模式",
+            },
+            {
+              text: "享元模式",
+              link: "/Design-Patterns/design-patterns/享元模式",
+            },
+          ],
+        },
       ],
     },
   ],
