@@ -154,6 +154,14 @@ export default {
               text: "享元模式",
               link: "/Design-Patterns/design-patterns/享元模式",
             },
+            {
+              text: "中间件模式",
+              link: "/Design-Patterns/design-patterns/中介者中间件模式",
+            },
+            {
+              text: "混合模式",
+              link: "/Design-Patterns/design-patterns/混合模式",
+            },
           ],
         },
       ],
