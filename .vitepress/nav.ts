@@ -9,12 +9,8 @@ export default [
         link: "",
       },
       {
-        text: "Http 协议",
-        link: "",
-      },
-      {
-        text: "Html 基础",
-        link: "",
+        text: "HTTP",
+        link: "/web-development-basics/http/01.基础知识.md",
       },
     ],
   },
@@ -23,15 +19,15 @@ export default [
     items: [
       {
         text: "Linux",
-        link: "/linux/index.md",
+        link: "/server/linux/01.Linux操作系统.md",
       },
       {
         text: "Mysql",
-        link: "/mysql/index.md",
+        link: "/server/mysql/index.md",
       },
       {
         text: "Nginx",
-        link: "/nginx/index.md",
+        link: "/server/nginx/index.md",
       },
     ],
   },
@@ -39,20 +35,24 @@ export default [
     text: "前端文档",
     items: [
       {
+        text: "javascript",
+        link: "/front-end/javascript/正则表达式.md",
+      },
+      {
         text: "typescript",
-        link: "/typescript/01.基础类型.md",
+        link: "/front-end/typescript/01.基础类型.md",
       },
       {
         text: "react",
-        link: "/react/hooks/数据状态/useState",
+        link: "/front-end/react/hooks/数据状态/useState",
       },
       {
         text: "zustand",
-        link: "/zustand/index.md",
+        link: "/front-end/zustand/index.md",
       },
       {
         text: "canvas",
-        link: "/canvas/01.canvas.md",
+        link: "/front-end/canvas/01.canvas.md",
       },
     ],
   },
@@ -61,11 +61,11 @@ export default [
     items: [
       {
         text: "数据结构与算法",
-        link: "/Data-Structures-And-Algorithms/01.数据结构与算法简介.md",
+        link: "/internal-strength/Data-Structures-And-Algorithms/01.数据结构与算法简介.md",
       },
       {
         text: "设计模式",
-        link: "/Design-Patterns/01.设计模式简介.md",
+        link: "/internal-strength/Design-Patterns/01.设计模式简介.md",
       },
     ],
   },
