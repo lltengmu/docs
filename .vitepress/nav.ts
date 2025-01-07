@@ -9,6 +9,10 @@ export default [
         link: '/web-development-basics/computer-basics/01.前言.md',
       },
       {
+        text: '计算机网络',
+        link: '/web-development-basics/computer-network/概述/01.互联网的概述.md',
+      },
+      {
         text: 'HTTP',
         link: '/web-development-basics/http/01.基础知识.md',
       },

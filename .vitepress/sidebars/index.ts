@@ -1,5 +1,6 @@
 import canvas from './canvas'
 import computerBasics from './computer-basics'
+import computerNetwork from './computer-network'
 import DA from './DA'
 import desingPatterns from './desingPatterns'
 import git from './git'
@@ -13,6 +14,7 @@ import zustand from './zustand'
 
 const sidebars = [
   computerBasics,
+  computerNetwork,
   git,
   mysql,
   typescript,
