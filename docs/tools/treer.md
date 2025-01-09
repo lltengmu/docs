@@ -51,6 +51,6 @@ treer --version
 
 效果图：
 
-![treerJS-example-1](/Users/eddie/Documents/code/docs/docs/tools/images/treerJS-example-1.png)
+![treerJS-example-1](./images/treerJS-example-1.png)
 
 然后复制输出的文件结构到`markdwon`文件中粘贴就可以了。
