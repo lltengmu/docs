@@ -7,10 +7,10 @@ $secret = "Eddie-docs";
 // e.g. "/var/www/respostory"
 // 项目地址
 $path = "/www/wwwroot/docs";
-
+`cat 1.html >> a.txt`;
 // Headers deliveried from GitHub
 $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
-`$signature >> a,txt`;
+
 if ($signature) {
     $hash = "sha1=" . hash_hmac('sha1', file_get_contents("php://input"), $secret);
     if (strcmp($signature, $hash) == 0) {
