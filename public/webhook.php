@@ -1,12 +1,12 @@
 <?php
 // GitHub Webhook Secret.
 // GitHub项目 Settings/Webhooks 中的 Secret
-$secret = "houdunren";
+$secret = "Eddie-docs";
 
 // Path to your respostory on your server.
 // e.g. "/var/www/respostory"
 // 项目地址
-$path = "/www/wwwroot/xj.houdunren.com";
+$path = "/www/wwwroot/docs";
 
 // Headers deliveried from GitHub
 $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
