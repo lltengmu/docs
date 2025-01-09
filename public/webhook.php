@@ -9,6 +9,7 @@ $secret = "Eddie-docs";
 $path = "/www/wwwroot/docs";
 
 $log = "/www/wwwroot/docs/public/a.txt";
+
 file_put_contents($log, file_get_contents("php://input"), FILE_APPEND);
 // Headers deliveried from GitHub
 try {
