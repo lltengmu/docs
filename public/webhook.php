@@ -6,7 +6,7 @@ $secret = "Eddie-docs";
 // Path to your respostory on your server.
 // e.g. "/var/www/respostory"
 // 项目地址
-$path = "/www/wwwroot/docs";
+$path = "/www/wwwroot/docs.hub-sky.com/docs";
 
 // Headers deliveried from GitHub
 try {
