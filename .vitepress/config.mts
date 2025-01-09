@@ -7,7 +7,7 @@ export default defineConfig({
   title: 'Eddie',
   description: '你怎么睡得着的...',
   srcDir: 'docs',
-  outDir: 'public/pages',
+  outDir: 'public',
   lastUpdated: true,
   markdown: { math: true },
   themeConfig: {
