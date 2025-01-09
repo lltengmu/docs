@@ -66,6 +66,10 @@ export default {
               text: '基本概念',
               link: '/web-development-basics/computer-network/数据链路层/01.数据链路层.md',
             },
+            {
+              text: '信道划分访问控制',
+              link: '/web-development-basics/computer-network/数据链路层/02.信道划分访问控制.md',
+            },
           ],
         },
       ],
