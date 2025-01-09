@@ -31,4 +31,4 @@ const useAppHook = () => {
 ```
 
 然后在开发工具中看到
-![useDebugValue-example](/Users/eddie/Documents/code/docs/docs/front-end/react/hooks/images/useDebugValue-example.png)
+![useDebugValue-example](../images/useDebugValue-example.png)

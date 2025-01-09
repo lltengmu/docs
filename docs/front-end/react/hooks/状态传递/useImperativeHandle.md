@@ -95,6 +95,6 @@ export default () => {
 
 可以看到父组件的`ref` 对象的`current`属性包含了子组件暴露出来的`focus`方法
 
-![useImperativeHandle-example-1](/Users/eddie/Documents/code/docs/docs/front-end/react/hooks/images/useImperativeHandle-example-1.png)
+![useImperativeHandle-example-1](../images/useImperativeHandle-example-1.png)
 
 然后在父组件就可以调用这个`focus`函数让子组件的`input`元素 获取到焦点。

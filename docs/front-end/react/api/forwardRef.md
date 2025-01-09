@@ -65,4 +65,4 @@ export default () => {
 
 在父组件的`Effect`副作用函数中输出`formRef.current` 时，在控制台输出表单DOM节点，父组件访问到了子组件元素。
 
-![forwardRef-example-1](/Users/eddie/Documents/code/docs/docs/front-end/react/api/images/forwardRef-example-1.png)
+![forwardRef-example-1](./images/forwardRef-example-1.png)

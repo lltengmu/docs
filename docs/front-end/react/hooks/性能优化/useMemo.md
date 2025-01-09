@@ -75,7 +75,7 @@ export default () => {
 
 点击父组件的add count 按钮
 
-![useMemo-example-1](/Users/eddie/Documents/code/docs/docs/front-end/react/hooks/images/useMemo-example-1.png)
+![useMemo-example-1](../images/useMemo-example-1.png)
 
 发现子组件还是发生了重新渲染。 使用`useMemo`hook 记忆函数使子组件跳过重新渲染。
 
@@ -110,7 +110,7 @@ export default () => {
 
 点击addCount 按钮，控制台输出：
 
-![useMemo-example-2](/Users/eddie/Documents/code/docs/docs/front-end/react/hooks/images/useMemo-example-2.png)
+![useMemo-example-2](../images/useMemo-example-2.png)
 
 只有父组件发生了重新渲染，子组件跳过了重新渲染，实现了减少组件的重渲染。
 
