@@ -8,9 +8,6 @@ $secret = "Eddie-docs";
 // 项目地址
 $path = "/www/wwwroot/docs";
 
-$log = "/www/wwwroot/docs/public/a.txt";
-
-file_put_contents($log, file_get_contents("php://input"), FILE_APPEND);
 // Headers deliveried from GitHub
 try {
     $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
