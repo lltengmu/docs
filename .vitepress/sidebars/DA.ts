@@ -15,6 +15,14 @@ export default {
           text: '哈希表',
           link: '/internal-strength/Data-Structures-And-Algorithms/Code-random-recording/03.哈希表',
         },
+        {
+          text: '字符串',
+          link: '/internal-strength/Data-Structures-And-Algorithms/Code-random-recording/04.字符串',
+        },
+        {
+          text: '栈与队列',
+          link: '/internal-strength/Data-Structures-And-Algorithms/Code-random-recording/05.栈与队列',
+        },
       ],
     },
   ],
