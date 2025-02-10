@@ -33,6 +33,10 @@ export default [
         text: 'Nginx',
         link: '/server/nginx/index.md',
       },
+      {
+        text: 'php',
+        link: '/server/php/01.jwt.md',
+      },
     ],
   },
   {

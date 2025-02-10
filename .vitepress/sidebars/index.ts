@@ -8,6 +8,7 @@ import Http from './Http'
 import javascript from './javascript'
 import linux from './linux'
 import mysql from './mysql'
+import php from './php'
 import react from './react'
 import typescript from './typescript'
 import zustand from './zustand'
@@ -26,6 +27,7 @@ const sidebars = [
   desingPatterns,
   Http,
   linux,
+  php
 ]
 
 export default sidebars.reduce((prev, item) => Object.assign(prev, item), {})
