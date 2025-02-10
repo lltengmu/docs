@@ -23,6 +23,10 @@ export default {
           text: '栈与队列',
           link: '/internal-strength/Data-Structures-And-Algorithms/Code-random-recording/05.栈与队列',
         },
+        {
+          text: '二叉树',
+          link: '/internal-strength/Data-Structures-And-Algorithms/Code-random-recording/06.二叉树',
+        },
       ],
     },
   ],
