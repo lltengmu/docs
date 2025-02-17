@@ -44,7 +44,7 @@ export default [
     items: [
       {
         text: 'javascript',
-        link: '/front-end/javascript/正则表达式.md',
+        link: '/front-end/javascript/01.正则表达式.md',
       },
       {
         text: 'typescript',
@@ -61,6 +61,10 @@ export default [
       {
         text: 'canvas',
         link: '/front-end/canvas/01.canvas.md',
+      },
+      {
+        text: 'vue',
+        link: '/front-end/vue/02.vue响应式变更.md',
       },
     ],
   },
@@ -83,6 +87,15 @@ export default [
       {
         text: 'treerJs',
         link: '/tools/treer.md',
+      },
+    ],
+  },
+  {
+    text: '题目',
+    items: [
+      {
+        text: 'VUE',
+        link: '/topic/vue.md',
       },
     ],
   },

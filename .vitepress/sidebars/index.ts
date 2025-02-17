@@ -11,6 +11,7 @@ import mysql from './mysql'
 import php from './php'
 import react from './react'
 import typescript from './typescript'
+import vue from './vue'
 import zustand from './zustand'
 
 const sidebars = [
@@ -27,7 +28,8 @@ const sidebars = [
   desingPatterns,
   Http,
   linux,
-  php
+  php,
+  vue
 ]
 
 export default sidebars.reduce((prev, item) => Object.assign(prev, item), {})
