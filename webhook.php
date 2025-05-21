@@ -23,4 +23,3 @@ if ($signature) {
 }
 
 http_response_code(404);
-
