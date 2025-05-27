@@ -71,6 +71,18 @@ export default {
             },
           ],
         },
+        {
+          text: '网络层',
+          items: [
+            {
+              text: '知识点',
+              link: '/web-development-basics/computer-network/网络层/index.md',
+            },
+            {
+              text: '题目',
+            },
+          ],
+        },
       ],
     },
   ],
