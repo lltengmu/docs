@@ -95,6 +95,30 @@ export default {
             },
           ],
         },
+        {
+          text: '应用层',
+          items: [
+            {
+              text: '知识点',
+              link: '/web-development-basics/computer-network/应用层/index.md',
+            },
+            {
+              text: '题目',
+            },
+          ],
+        },
+        {
+          text: '网络安全',
+          items: [
+            {
+              text: '知识点',
+              link: '/web-development-basics/computer-network/网络安全/index.md',
+            },
+            {
+              text: '题目',
+            },
+          ],
+        },
       ],
     },
   ],
