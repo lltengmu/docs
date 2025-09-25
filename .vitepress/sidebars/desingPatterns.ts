@@ -41,6 +41,10 @@ export default {
               link: '/internal-strength/Design-Patterns/structural-patterns/桥接模式',
             },
             {
+              text: '外观模式',
+              link: '/internal-strength/Design-Patterns/behavior-patterns/外观模式',
+            },
+            {
               text: '享元模式',
               link: '/internal-strength/Design-Patterns/structural-patterns/享元模式',
             },
@@ -56,6 +60,14 @@ export default {
             {
               text: '观察者模式',
               link: '/internal-strength/Design-Patterns/behavior-patterns/观察者模式',
+            },
+            {
+              text: '迭代器模式',
+              link: '/internal-strength/Design-Patterns/behavior-patterns/迭代器模式',
+            },
+            {
+              text: '备忘录模式',
+              link: '/internal-strength/Design-Patterns/behavior-patterns/备忘录模式',
             },
             {
               text: '中间件模式',
