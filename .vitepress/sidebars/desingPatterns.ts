@@ -42,11 +42,15 @@ export default {
             },
             {
               text: '外观模式',
-              link: '/internal-strength/Design-Patterns/behavior-patterns/外观模式',
+              link: '/internal-strength/Design-Patterns/structural-patterns/外观模式',
             },
             {
               text: '享元模式',
               link: '/internal-strength/Design-Patterns/structural-patterns/享元模式',
+            },
+            {
+              text: '组合模式',
+              link: '/internal-strength/Design-Patterns/structural-patterns/组合模式',
             },
           ],
         },
@@ -76,6 +80,22 @@ export default {
             {
               text: '策略模式',
               link: '/internal-strength/Design-Patterns/behavior-patterns/策略模式',
+            },
+            {
+              text: '备忘录模式',
+              link: '/internal-strength/Design-Patterns/behavior-patterns/备忘录模式',
+            },
+            {
+              text: '访问者模式',
+              link: '/internal-strength/Design-Patterns/behavior-patterns/访问者模式',
+            },
+            {
+              text: '状态模式',
+              link: '/internal-strength/Design-Patterns/behavior-patterns/状态模式',
+            },
+            {
+              text: '责任链模式',
+              link: '/internal-strength/Design-Patterns/behavior-patterns/状态模式',
             },
           ],
         },
