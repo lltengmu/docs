@@ -75,7 +75,7 @@ export default {
             },
             {
               text: '中间件模式',
-              link: '/internal-strength/Design-Patterns/behavior-patterns/中介者中间件模式',
+              link: '/internal-strength/Design-Patterns/behavior-patterns/中间件模式',
             },
             {
               text: '策略模式',
