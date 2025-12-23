@@ -13,6 +13,7 @@ import react from './react'
 import typescript from './typescript'
 import vue from './vue'
 import zustand from './zustand'
+import webApi from './web-api'
 
 const sidebars = [
   computerBasics,
@@ -29,7 +30,8 @@ const sidebars = [
   Http,
   linux,
   php,
-  vue
+  vue,
+  webApi,
 ]
 
 export default sidebars.reduce((prev, item) => Object.assign(prev, item), {})
