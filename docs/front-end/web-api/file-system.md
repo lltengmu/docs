@@ -109,7 +109,7 @@
    });
    ```
 
-   ![FileSystemDirectoryHandle](F:\apps-Luost\docs\docs\front-end\web-api\file-system-image\FileSystemDirectoryHandle.png)
+   ![FileSystemDirectoryHandle](./file-system-image/FileSystemDirectoryHandle.png)
 
 
 
