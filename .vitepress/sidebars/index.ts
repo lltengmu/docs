@@ -1,37 +1,38 @@
-import canvas from './canvas'
-import computerBasics from './computer-basics'
-import computerNetwork from './computer-network'
-import DA from './DA'
-import desingPatterns from './desingPatterns'
-import git from './git'
-import Http from './Http'
-import javascript from './javascript'
-import linux from './linux'
-import mysql from './mysql'
-import php from './php'
-import react from './react'
-import typescript from './typescript'
-import vue from './vue'
-import zustand from './zustand'
-import webApi from './web-api'
+// 自动导入 modules 目录下的所有 sidebar 模块
+// 此文件由 generate-index.js 自动生成，请勿手动编辑
+import DA from './modules/DA'
+import Http from './modules/Http'
+import canvas from './modules/canvas'
+import computerBasics from './modules/computer-basics'
+import computerNetwork from './modules/computer-network'
+import desingPatterns from './modules/desingPatterns'
+import git from './modules/git'
+import javascript from './modules/javascript'
+import linux from './modules/linux'
+import mysql from './modules/mysql'
+import php from './modules/php'
+import react from './modules/react'
+import typescript from './modules/typescript'
+import vue from './modules/vue'
+import webApi from './modules/web-api'
+import zustand from './modules/zustand'
 
-const sidebars = [
-  computerBasics,
-  computerNetwork,
-  git,
-  mysql,
-  typescript,
-  javascript,
-  react,
-  zustand,
-  canvas,
-  DA,
-  desingPatterns,
-  Http,
-  linux,
-  php,
-  vue,
-  webApi,
-]
-
-export default sidebars.reduce((prev, item) => Object.assign(prev, item), {})
+// 合并所有 sidebar 配置
+export default {
+  ...DA,
+  ...Http,
+  ...canvas,
+  ...computerBasics,
+  ...computerNetwork,
+  ...desingPatterns,
+  ...git,
+  ...javascript,
+  ...linux,
+  ...mysql,
+  ...php,
+  ...react,
+  ...typescript,
+  ...vue,
+  ...webApi,
+  ...zustand,
+}

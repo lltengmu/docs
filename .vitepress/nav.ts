@@ -44,7 +44,7 @@ export default [
     items: [
       {
         text: 'javascript',
-        link: '/front-end/javascript/01.正则表达式.md',
+        link: '/javascript/preface',
       },
       {
         text: 'typescript',
