@@ -1,4 +1,4 @@
-# <video>，<audio>
+# `<video>`，`<audio>`
 
 ## 概述
 
@@ -7,8 +7,8 @@
 理论上，这两个 HTML 元素直接用`src`属性指定媒体文件，就可以使用了。
 
 ```html
-<audio src="background_music.mp3"/>
-<video src="news.mov" width=320 height=240/>
+<audio src="background_music.mp3"></audio>
+<video src="news.mov" width=320 height=240></video>
 ```
 
 注意，`<video>`元素有`width`属性和`height`属性，可以指定宽和高。`<audio>`元素没有这两个属性，因为它的播放器外形是浏览器给定的，不能指定。
