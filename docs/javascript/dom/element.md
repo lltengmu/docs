@@ -120,7 +120,7 @@ HTML 元素可以设置`contentEditable`属性，使得元素的内容可以编�
 - `"false"`：元素内容不可编辑
 - `"inherit"`：元素是否可编辑，继承了父元素的设置
 
-`Element.isContentEditable`属性返回一个布尔值，同样表示是否设置了`contenteditable`属性。该属性只读。
+`Element.isContentEditable`属性返回一个布尔值，同样表示是否设置了`contenteditable`属性。该属性只读。通过访问该元素的`textContent`属性可以获取到编辑后的内容。
 
 ### Element.attributes
 
