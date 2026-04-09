@@ -31,7 +31,7 @@ export default [
       },
       {
         text: 'Nginx',
-        link: '/server/nginx/index.md',
+        link: '/server/nginx/nginx-introduction.md',
       },
       {
         text: 'php',

@@ -10,6 +10,7 @@ import git from './modules/git'
 import javascript from './modules/javascript'
 import linux from './modules/linux'
 import mysql from './modules/mysql'
+import nginx from './modules/nginx'
 import php from './modules/php'
 import react from './modules/react'
 import typescript from './modules/typescript'
@@ -29,6 +30,7 @@ export default {
   ...javascript,
   ...linux,
   ...mysql,
+  ...nginx,
   ...php,
   ...react,
   ...typescript,
